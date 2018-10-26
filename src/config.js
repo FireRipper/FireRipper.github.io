@@ -16,7 +16,7 @@ module.exports = {
    * @param {String} app_url - paste the full URL to your page.
    * @example https://your_login.github.io/, https://your_login.github.io/portfolio
    */
-  app_url: 'https://wportfolio.github.io/',
+  app_url: 'https://FireRipper.github.io/',
 
   /**
    * Progressive Web Apps (PWA).
@@ -33,19 +33,19 @@ module.exports = {
    * The Open Graph protocol
    * @see http://ogp.me/
    */
-  opg_description: 'Portfolio by Name Surname. Experience, training, and also implemented projects',
+  opg_description: 'Portfolio by Illia Shabeln`yk. Experience, training, and also implemented projects',
 
   /**
    * Basic information about the user + for meta tags.
    */
-  username: 'My username',
-  first_name: 'Name',
-  last_name: 'Surname',
-  gender: 'Female',
-  email: 'mail@example.com',
-  profession: 'Senior Graphic Designer',
-  image: 'static/images/profile/avatar.jpeg',
-  cv: 'static/files/cv.pdf',
+  username: 'FireRipper',
+  first_name: 'Illia',
+  last_name: 'Shabeln`yk',
+  gender: 'Male',
+  email: 'shabelnyk.ilya@gmail.com',
+  profession: 'Web developer',
+  image: 'static/images/profile/avatar.jpg',
+  cv: '',
 
   /**
    * Notify users that you are open to suggestions.
@@ -66,34 +66,34 @@ module.exports = {
    */
   display_projects: true,
   display_education: true,
-  display_experience: true,
+  display_experience: false,
 
   /**
    * A little information about yourself.
    */
   about_me:
-    '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has ' +
-    'been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley ' +
-    'of type and scrambled it to make a type specimen book.</p> ' +
-    '<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially ' +
-    'unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, ' +
-    'and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>',
+    '<p>Hi, my name is Illia Shabeln`yk, I\'m from Ukraine. Now I studying in KNUTE university ' +
+    'and improving my knowledge on their projects in Github.I like in photoshop to combine elements' +
+    'from different unpleasant pictures into one picture,' +
+    'but I don’t like to draw.I like to create beautiful, but at the same time simple designs for websites.'+
+    'You also can view source code this site on Github repository.</p> ' +
+    '<p>Like: traveling, sport, music, art, daydream.</p>',
 
 
   /**
    * Programming languages, technologies.
    */
   skills: [
-    'Photoshop', 'Adobe Illustrator', 'CSS', 'HTML', 'Javascript', 'GIT'
+    'HTML', 'CSS', 'Javascript', 'GIT', 'JQuery', 'C#','Photoshop'
   ],
 
   /**
    * Knowledge of foreign languages (the skill is also used in css, for color).
    */
   languages: [
-    { name: 'English', skill: 'Native' },
-    { name: 'German', skill: 'Intermediate' },
-    { name: 'French', skill: 'Elementary' }
+    { name: 'Ukrainian', skill: 'Native' },
+    { name: 'Russian', skill: 'Native' },
+    { name: 'English', skill: 'Elementary' }
   ],
 
   /**
@@ -103,11 +103,9 @@ module.exports = {
    * @see https://fontawesome.com/v4.7.0/icons/
    */
   social_media: [
-    { name: 'Facebook', href: 'https://facebook.com/profile', icon: 'facebook', },
-    { name: 'Twitter', href: 'https://twitter.com/profile', icon: 'twitter' },
-    { name: 'LinkedIn', href: 'https://www.linkedin.com/in/profile', icon: 'linkedin' },
-    { name: 'Reddit', href: 'https://reddit.com/', icon: 'reddit' },
-    { name: 'Dribbble', href: 'https://dribbble.com/', icon: 'dribbble' }
+    { name: 'Github', href: 'https://github.com/FireRipper', icon: 'github' },
+    { name: 'VK', href: 'https://vk.com/ishabelnik', icon: 'vk' },
+    { name: 'LinkedIn', href: 'https://www.linkedin.com/in/illia-shabeln-yk-0b3baa172/', icon: 'linkedin' },
   ],
 
   /**
@@ -136,12 +134,12 @@ module.exports = {
    * School, college, university.
    */
   education: [{
-    name: 'Massachusetts Institute of Technology',
+    name: 'Kyiv national university of trade and economics (KNUTE)',
     degree: 'Bachelor\'s degree',
     specialization: 'Computer Software Engineering',
-    href: 'http://www.mit.edu/',
-    image: 'static/images/education/mit.png',
-    year: { start: 2011, end: 2015 }
+    href: 'https://www.knteu.kiev.ua/',
+    image: 'static/images/education/KNUTE.png',
+    year: { start: 2016, end: 2019 }
   }],
 
   /**
@@ -151,53 +149,24 @@ module.exports = {
   projects: {
     filters: [
       { name: 'Open Source', value: 'open-source' },
-      { name: 'Photoshop', value: 'photoshop' },
       { name: 'HTML / CSS / JS', value: 'web' },
-      { name: 'Vue.js', value: 'vue' },
-      { name: 'Adobe Illustrator', value: 'ai' }
+      { name: 'JQuery', value: 'jquery' },
+      { name: 'C#', value: 'csharp' },
+      { name: 'Photoshop', value: 'photoshop' }
     ],
     items: [{
-      name: 'The standard Lorem Ipsum passage',
-      href: 'https://example.com/',
+      name: 'Qiwi Pizza',
+      href: 'https://github.com/FireRipper/Qiwi-pizza-with-BS4',
       image: 'static/images/projects/p1.png',
-      filters: ['open-source', 'web', 'ai'],
-      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+      filters: ['open-source', 'web', 'photoshop','jquery'],
+      description: 'Site for ordering pizza, burgers and salads.'
     }, {
-      name: 'Section 1.10.32 of "de Finibus Bonorum et Malorum"',
-      href: 'https://example.com/',
-      image: 'static/images/projects/p2.png',
-      filters: ['open-source', 'web', 'vue'],
-      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
-    },  {
-      name: '1914 translation by H. Rackham',
-      href: 'https://example.com/',
-      image: 'static/images/projects/p3.png',
-      filters: ['open-source', 'photoshop', 'ai'],
-      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
-    },  {
-      name: 'Section 1.10.33 of "de Finibus Bonorum et Malorum"',
-      href: 'https://example.com/',
-      image: 'static/images/projects/p4.png',
-      filters: ['photoshop'],
-      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
-    },  {
-      name: '1914 translation by H. Rackham',
-      href: 'https://example.com/',
-      image: 'static/images/projects/p5.png',
-      filters: ['vue'],
-      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
-    },  {
-      name: 'Where can I get some?',
-      href: 'https://example.com/',
-      image: 'static/images/projects/p6.png',
-      filters: ['web', 'vue'],
-      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
-    },  {
-      name: 'Lorem Ipsum',
-      href: 'https://example.com/',
-      image: 'static/images/projects/p7.png',
-      filters: ['photshop', 'ai'],
-      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+      name: 'Emulator parking',
+      href: 'https://github.com/FireRipper/Emulator-parking',
+      image: 'static/images/projects/p2.jpg',
+      filters: ['open-source', 'csharp'],
+      description: 'Program simulator parking, car registration,'+
+      ' time and date of entry and exit. Simulation of accidents at the parking lot.'
     }]
   }
 
