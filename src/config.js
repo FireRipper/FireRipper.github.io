@@ -73,12 +73,12 @@ module.exports = {
    * A little information about yourself.
    */
   about_me:
-    '<p>Hi, my name is Illia Shabeln`yk, I\'m from Ukraine. Now I studying in KNUTE university ' +
-    'and improving my knowledge on their projects in Github.I like in photoshop to combine elements' +
+    '<p>Hi, my name is Illia Shabeln`yk, I\'m from Ukraine. Now I study in KNUTE university ' +
+    'and improving my knowledge on their projects in Github. I like in photoshop to combine elements' +
     'from different unpleasant pictures into one picture,' +
-    'but I don’t like to draw.I like to create beautiful, but at the same time simple designs for websites.'+
-    'You also can view source code this site on Github repository.</p> ' +
-    '<p>Like: traveling, sport, music, art, daydream.</p>',
+    ' but I don’t like to draw. I like to create beautiful, but at the same time simple designs for websites.'+
+    'I\'m not afraid of difficulties. You also can view source code this site on Github repository.</p> ' +
+    '<p>Love: traveling, sport, music, art, daydream.</p>',
 
 
   /**
@@ -151,7 +151,6 @@ module.exports = {
     filters: [
       { name: 'Open Source', value: 'open-source' },
       { name: 'HTML / CSS / JS', value: 'web' },
-      { name: 'JQuery', value: 'jquery' },
       { name: 'C#', value: 'csharp' },
       { name: 'Photoshop', value: 'photoshop' }
     ],
@@ -159,7 +158,7 @@ module.exports = {
       name: 'Qiwi Pizza',
       href: 'https://github.com/FireRipper/Qiwi-pizza-with-BS4',
       image: 'static/images/projects/p1.png',
-      filters: ['open-source', 'web', 'photoshop','jquery'],
+      filters: ['open-source', 'web', 'photoshop'],
       description: 'Site for ordering pizza, burgers and salads.'
     }, {
       name: 'Emulator parking',
