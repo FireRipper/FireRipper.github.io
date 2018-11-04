@@ -44,8 +44,9 @@ module.exports = {
   gender: 'Male',
   email: 'shabelnyk.ilya@gmail.com',
   profession: 'Web developer',
-  image: 'static/images/profile/avatar.jpg',
-  cv: '',
+  avatar_img: 'static/images/profile/avatar.jpg',
+  background_img: 'static/images/profile/background.jpg',
+  resume: '',
 
   /**
    * Notify users that you are open to suggestions.

@@ -32,8 +32,8 @@
     }
   ],
   "name": "Illia Shabeln`yk",
-  "short_name": "CV I.S.",
-  "orientation": "any",
+  "short_name": "Illia Shabeln'yk",
+  "orientation": "portrait",
   "display": "standalone",
   "start_url": "https://FireRipper.github.io/",
   "lang": "en-US",
