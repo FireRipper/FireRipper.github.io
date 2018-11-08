@@ -103,6 +103,12 @@ safeQuotes = (str) => {
           <a href="<%= htmlWebpackPlugin.options.github_url %>" title="Github repository" target="_blank" rel="noopener">
             Repository
           </a>
+          <% if (htmlWebpackPlugin.options.display_qrcode) { %>
+          <div id="BtnQrCode" class="h-rs__bottom__Btn__QrCode" title="Click here to get QR-code this page!">
+            QR-code
+            <input id="text" type="text" value="<%= htmlWebpackPlugin.options.text_linkqr %>" style="display: none;"/>
+          </div>
+          <% } %>
         </div>
       <% } %>
     </div>

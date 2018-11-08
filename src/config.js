@@ -55,6 +55,14 @@ module.exports = {
   looking_job: true,
 
   /**
+   * Display button "QR-code" on page. 
+   * @param {Boolean} display_qrcode
+   */
+  display_qrcode: true,
+  text_linkqr: 'https://FireRipper.github.io/',
+
+
+  /**
    * Display link to Github repository.
    * @param {Boolean} display_repository
    * @see package.json - homepage attribute
@@ -68,6 +76,7 @@ module.exports = {
   display_projects: true,
   display_education: true,
   display_experience: false,
+  
 
   /**
    * A little information about yourself.

@@ -25,7 +25,8 @@
   "dependencies": {
     "font-awesome": "^4.7.0",
     "humanize-duration": "^3.15.3",
-    "normalize.css": "^8.0.0"
+    "normalize.css": "^8.0.0",
+    "qrcode-generator": "^1.4.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",

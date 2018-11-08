@@ -201,18 +201,58 @@
 }
 
 /* Bottom */
+#h-rs-wrap__overlay {
+  position: fixed;
+  z-index: 2500;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #485e6c;
+  opacity: .5;
+  cursor: pointer;
+}
+
+#h-rs__bottom__imgQrCode {
+  position: fixed;
+  z-index: 3000;
+  width: 250px;
+  height: 250px;
+  top: 25%;
+  left: 45%;
+  cursor: pointer;
+  background: #fff;
+  border-radius: 10px;
+}
 
 .h-rs__bottom {
-  text-align: right;
-  text-transform: uppercase;
-  font-size: .6rem;
-  letter-spacing: 1px;
   font-weight: bold;
   margin-top: 10px;
+  text-align: right;
+  letter-spacing: 1px;
   > a {
+    text-transform: uppercase;
+    font-size: .6rem;
     color: #333;
     &:hover {
       color: #f00;
+    }
+  }
+  .h-rs__bottom__Btn__QrCode {
+    background: #485e6c;
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 2px 12px;
+    font-size: .8rem;
+    margin: 0 0 0 10px;
+    opacity: 1;
+    &:hover {
+      opacity: 0.8;
+      cursor: pointer;
+    }
+    &:active {
+      box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
     }
   }
 }
