@@ -216,13 +216,9 @@
 #h-rs__bottom__imgQrCode {
   position: fixed;
   z-index: 3000;
-  width: 250px;
-  height: 250px;
   top: 25%;
-  left: 45%;
+  left: 40%;
   cursor: pointer;
-  background: #fff;
-  border-radius: 10px;
 }
 
 .h-rs__bottom {
@@ -265,5 +261,8 @@
   }
   .h-ls {
     max-width: unset;
+  }
+  #h-rs__bottom__imgQrCode {
+    left: 15%;
   }
 }
