@@ -1,0 +1,24 @@
+{
+  "name": "portfolio-illia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "scrollreveal": "^4.0.9"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "eslint": "^7.24.0",
+    "prettier": "^2.2.1",
+    "eslint-config-prettier": "^8.2.0",
+    "eslint-plugin-prettier": "^3.4.0"
+  }
+}
