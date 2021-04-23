@@ -21,9 +21,15 @@ jobs:
       - name: Execute scripts
         working-directory: ./dist
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          git config --local user.name "github-actions"
+          git config --local user.email "github-actions@github.com"
           git init
           git add -A
           git commit -m "deploy"
-          git push -f git@gitgub.com:FireRipper/FireRipper.github.io.git master:gh-pages
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: gh-pages
+          force: true
+          directory: ./dist
