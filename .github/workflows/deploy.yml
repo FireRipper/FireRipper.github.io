@@ -21,8 +21,8 @@ jobs:
       - name: Execute scripts
         working-directory: ./dist
         run: |
-          git config --local user.name "github-actions"
-          git config --local user.email "github-actions@github.com"
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
           git init
           git add -A
           git commit -m "deploy"
