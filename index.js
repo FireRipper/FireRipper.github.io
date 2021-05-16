@@ -1,4 +1,5 @@
 import ScrollReveal from "scrollreveal";
+import 'boxicons';
 
 const showMenu = (toggleId, navId) => {
   const toggle = document.getElementById(toggleId);
