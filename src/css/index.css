@@ -346,7 +346,7 @@ img {
 }
 
 .portfolio__box-icon {
-	fill: var(--text-color);
+	color: var(--text-color);
 }
 
 .footer {
