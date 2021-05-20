@@ -338,6 +338,7 @@ img {
 .portfolio__box-forks {
 	display: flex;
 	padding-right: 10px;
+	align-items: center;
 }
 
 .portfolio__box-title {
